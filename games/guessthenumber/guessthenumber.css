@@ -1,0 +1,119 @@
+body {
+    background: url(1609812.png);
+    padding: 24px;
+    margin-top: 6%;
+}
+
+#mainwrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#mainheader {
+    background-color: #EEE5DE;
+    text-align: center;
+    /*font-family: 'Maiden Orange', cursive;*/
+    font-family: 'Ribeye', sans-serif;
+    font-size: 64px;
+    color: #292421;
+    width: 640px;
+    padding: 16px 24px 16px 24px;
+    display: block;
+    position: relative;
+    margin: auto auto 16px;
+    border-style: solid;
+    border-color: #CDC5BF;
+    border-width: 2px 2px 16px 2px;
+}
+
+#foo {
+    display: block;
+    background-color: #FFF8DC;
+    width: 638px;
+    height: 298px;
+    line-height: 298px;
+    font-size: 32px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #BABABA;
+    border-width: 2px 2px 6px 2px;
+}
+
+#foo #footext {
+    padding: 0px 8px 0px 8px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#foowrapper {
+    display: block;
+    position: relative;
+    width: 640px;
+    padding: 24px;
+    background-color: #EEE5DE;
+    /*border: 12px solid #EEE5DE;*/
+    border-style: solid;
+    border-color: #CDC5BF;
+    border-width: 2px 2px 16px 2px;
+    margin: auto;
+    /*outline-style: solid;
+    outline-width: 12px;
+    outline-color: #CDC5BF;*/
+}
+
+#inputwrapper {
+    display: block;
+    position: relative;
+    width: 640px;
+    padding: 24px;
+    background-color: #EEE5DE;
+    /*border: 12px solid #EEE5DE;*/
+    border-style: solid;
+    border-color: #CDC5BF;
+    border-width: 2px 2px 16px 2px;
+    margin: 16px auto;
+    /*outline-style: solid;
+    outline-width: 12px;
+    outline-color: #CDC5BF;*/
+}
+
+#userinput {
+    display: inline-block;
+    width:532px;
+    height:33px;
+    margin: 0px 0px 0px 0px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #BABABA;
+    border-width: 2px 2px 6px 2px;
+    padding: 4px;
+    /*box-shadow: 0px 4px 0px #888888;*/
+}
+
+#button1 {
+    position:absolute;
+    display: inline-block;
+    width: calc(640px - 550px);
+    height: 49px;
+    /*background: #F2F2F2;*/
+    background: linear-gradient(#F2F2F2, #DBDBDB);
+    font-size:16px;
+    margin: 0px 0px 0px 8px;
+    border-style: solid;
+    border-color: #BABABA;
+    border-width: 2px 2px 6px 2px;
+}
+
+#button1:active {
+    position: absolute;
+    /*background: linear-gradient(#DBDBDB, #F2F2F2);*/
+    height: 47px;
+    margin: 2px 0px 0px 8px;
+    border-width: 2px 2px 3px 2px;
+}
+
+/*#button1:focus {
+    outline: none;
+}*/
