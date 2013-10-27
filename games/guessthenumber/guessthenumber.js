@@ -1,28 +1,30 @@
-var thenum = fooFunc()
+var thenum = fooFunc();
 
 function fooFunc() {
-    return Math.floor((Math.random()*10)+1);
+  return Math.floor((Math.random()*10)+1);
 }
 
 function getInput() {
-    var temp = document.getElementById("foo");
-    var test = document.getElementById('userinput').value;
-    checkInput(thenum, test)
-    //temp.innerHTML = test;
-    document.getElementById('userinput').value = "";
+  var test = document.getElementById('userinput').value;
+  checkInput(thenum, test);
+  document.getElementById('userinput').value = "";
 }
 
 function checkInput(thenum, inputx) {
-    var temp = document.getElementById("foo");
-    if (inputx == "Rad") {
-        temp.innerHTML = "<b>You submitted some rad shit!</b>";
-    } else if (inputx == thenum) {
-        temp.innerHTML = "You're correct!";
-    } else {
-        temp.innerHTML = "Incorrect.";
-    }
+  var temp = document.getElementById("foo");
+  if (inputx == thenum) {
+    temp.style.backgroundColor = "#dbf6ad";
+    temp.innerHTML = "Correct!";
+  } else {
+    temp.style.backgroundColor = "#f8c4c4";
+    temp.innerHTML = "Incorrect.";
+    //window.setTimeout(failFunc, 1000)
+  }
 }
 
-window.onload=function(){
-    
+//TODO: Have something happen when the user fails.
+function failFunc() {
+  window.location.href = "http://www.google.ca";
 }
+
+window.onload = function(){}
