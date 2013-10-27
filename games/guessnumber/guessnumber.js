@@ -5,18 +5,18 @@ function genRandomNum() {
 }
 
 function getInput() {
-  var test = document.getElementById('userinput').value;
+  var test = document.getElementById('inputbox').value;
   checkInput(thenum, test);
-  document.getElementById('userinput').value = "";
+  document.getElementById('inputbox').value = "";
 }
 
 function checkInput(thenum, inputx) {
-  var temp = document.getElementById("foo");
+  var temp = document.getElementById("txtbox");
   if (inputx == thenum) {
-    temp.style.backgroundColor = "#dbf6ad";
+    temp.style.backgroundColor = "#DBF6AD";
     temp.innerHTML = "Correct!";
   } else {
-    temp.style.backgroundColor = "#f8c4c4";
+    temp.style.backgroundColor = "#F8C4C4";
     temp.innerHTML = "Incorrect.";
     //window.setTimeout(failFunc, 1000)
   }
