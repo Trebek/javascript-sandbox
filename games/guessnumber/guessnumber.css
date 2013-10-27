@@ -1,12 +1,19 @@
+/* BODY */
+
 body {
   margin-top: 10%;
-  background: url(1609812.png) #ffffff;
+
+  background: url(https://docs.google.com/uc?export=download&id=0Bxr_lVFZslotWmVqVnYxWlVONkU);
 }
+
+/* MAIN WRAPPER */
 
 #mainwrapper {
   width: 100%;
   height: 100%;
 }
+
+/* HEADER */
 
 #mainheader {
   /* Display Settings */
@@ -32,7 +39,25 @@ body {
   box-shadow: 0px 8px 8px rgba(0,0,0,0.075);
 }
 
-#foo {
+/* TEXT BOX */
+
+#txtwrapper {
+  /* Display Settings */
+  display: block;
+  position: relative;
+  width: 460px;
+  height: 78px;
+  margin: auto;
+  padding: 14px 24px 16px 24px;
+  background: #eee5de;
+  /* Border Settings */
+  border: 2px solid #cdc5bf;
+  border-bottom-width: 16px;
+  /* Box Shadow Settings */
+  box-shadow: 0px 8px 8px rgba(0,0,0,0.075);
+}
+
+#txtbox {
   /* Display Settings */
   display: inline-block;
   position: relative;
@@ -52,29 +77,15 @@ body {
   /* Misc. Settings */
   overflow: auto;
 }
-
-#foo #footext {
+ 
+#thetxt {
   padding: 0px 8px 0px 8px;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
 }
 
-#foowrapper {
-  /* Display Settings */
-  display: block;
-  position: relative;
-  width: 460px;
-  height: 78px;
-  margin: auto;
-  padding: 14px 24px 16px 24px;
-  background: #eee5de;
-  /* Border Settings */
-  border: 2px solid #cdc5bf;
-  border-bottom-width: 16px;
-  /* Box Shadow Settings */
-  box-shadow: 0px 8px 8px rgba(0,0,0,0.075);
-}
+/* INPUT BOX */
 
 #inputwrapper {
   /* Display Settings */
@@ -92,7 +103,7 @@ body {
   box-shadow: 0px 8px 8px rgba(0,0,0,0.075);
 }
 
-#userinput {
+#inputbox {
   /* Display Settings */
   display: inline-block;
   position: relative;
@@ -111,28 +122,28 @@ body {
   border-top-width: 6px;
 }
 
-#userinput::-webkit-input-placeholder {
+#inputbox::-webkit-input-placeholder {
   padding: 6px 4px 4px 2px;
   font-size: 24px;
   color:#adadad;
   vertical-align: middle;
 }
 
-#userinput::-moz-placeholder {
+#inputbox::-moz-placeholder {
   padding: 6px 4px 4px 2px;
   font-size: 24px;
   color:#adadad;
   vertical-align: middle;
 }
 
-#userinput::input-placeholder {
+#inputbox::input-placeholder {
   padding: 6px 4px 4px 2px;
   font-size: 24px;
   color:#adadad;
   vertical-align: middle;
 }
 
-#button1 {
+#guessbutton {
   /* Display Settings */
   position:absolute;
   display: inline-block;
@@ -148,7 +159,7 @@ body {
   border-bottom-width: 6px;
 }
 
-#button1:active {
+#guessbutton:active {
   position: absolute;
   height: 46px;
   margin: 0px 0px 0px 8px;
