@@ -1,6 +1,6 @@
-var thenum = fooFunc();
+var thenum = genRandomNum();
 
-function fooFunc() {
+function genRandomNum() {
   return Math.floor((Math.random()*10)+1);
 }
 
